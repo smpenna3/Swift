@@ -1,0 +1,4 @@
+Version 2:  Added decimal places
+
+Version 3:  Added two variable holders, A and B which can be set and used by the user.
+

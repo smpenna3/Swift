@@ -34,7 +34,7 @@ class Person  {
 	}
  
 	func printInfo()  {
-		print("First Name: \(firstName)")
+		print("\(firstName) \(lastName) is \(age) years old.")
 	}
  
 }

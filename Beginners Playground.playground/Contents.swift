@@ -36,7 +36,7 @@ while(true){
     if(int > 500){
         break
     }
-    int++
+    int += 1
 }
 
 
@@ -59,3 +59,11 @@ if let number = optionalNumber  {
 else  {
     print("It is not a number")
 }
+
+
+// repeat while, like do while
+var i = 0
+repeat{
+	print(i)
+	i += 1
+} while(i < 10)

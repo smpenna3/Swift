@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8E1BA73D1D1F18640076E5B5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA73C1D1F18640076E5B5 /* main.swift */; };
 		8E1BA7441D1F18760076E5B5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BA7431D1F18760076E5B5 /* Person.swift */; };
+		8E2F93441D1F30B1007B5078 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F93431D1F30B1007B5078 /* helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		8E1BA7391D1F18640076E5B5 /* Classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Classes; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1BA73C1D1F18640076E5B5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E1BA7431D1F18760076E5B5 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		8E2F93431D1F30B1007B5078 /* helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				8E1BA73C1D1F18640076E5B5 /* main.swift */,
 				8E1BA7431D1F18760076E5B5 /* Person.swift */,
+				8E2F93431D1F30B1007B5078 /* helpers.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -91,7 +94,9 @@
 		8E1BA7311D1F18640076E5B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					8E1BA7381D1F18640076E5B5 = {
 						CreatedOnToolsVersion = 6.3;
@@ -122,6 +127,7 @@
 			files = (
 				8E1BA7441D1F18760076E5B5 /* Person.swift in Sources */,
 				8E1BA73D1D1F18640076E5B5 /* main.swift in Sources */,
+				8E2F93441D1F30B1007B5078 /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +154,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -239,6 +246,7 @@
 				8E1BA7421D1F18650076E5B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
